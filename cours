@@ -1,0 +1,18 @@
+2 chose à savoir en React: 
+
+(1) Props
+envoyer des informations de composant à composant 
+un composant est une classe commenc epar une majuscule 
+c'est un objet qui contient toutes les informations que papa encoie à son fils 
+ex: RBNB pris d'un location --> rbnbr envoie en props le prix, les phtotos, nom du locataires etc
+Les propos sont externes, elle vient d'ailleurs
+
+(2) state
+states c'est interne, privé appartient à un composant
+chaque compo à son state et son render
+
+life cycle component: 
+composant à une vie il nait  --> constructore
+appel fonction rendler qui affiche 
+il se passe des choses 
+
