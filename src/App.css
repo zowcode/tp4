@@ -1,7 +1,75 @@
+
 .App {
   text-align: center;
 }
 
+.row-topButton
+{
+  display: block;
+  color: #000;
+  padding: 8px 80px;
+}
+
+.col
+{
+  margin: 8px 5px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+
+  
+}
+#carte_profil{
+  background-color: #09d3ac;
+}
+.colonne{
+  border: 2px solid  black;
+  margin-top: 5rem;
+}
+.colonne2{
+  border: 2px solid  black;
+  margin-top: 1rem;
+}
+
+.col_info{
+  margin-top: 1rem;
+}
+
+img{
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+
+}
+
+#buttonStyle{
+
+  margin-bottom: 1rem;
+  font-family: 'Courier New', Courier; 
+  font-size: 18px;
+  margin-top: 2rem;
+  border: 1px solid black;
+  border-radius: 4px;
+
+}
+
+text{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-style: oblique;
+  margin-top: 1rem;
+}
+
+#text{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+#text2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: normal;
+}
 .App-logo {
   height: 40vmin;
 }

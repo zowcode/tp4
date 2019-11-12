@@ -2,11 +2,13 @@ import React from 'react';
 
 // je veux afficher Profil Info
 class ProfilInfo extends React.Component{
+    
     render(){
+      this.info = this.props.info;
       return( 
-        <div> ProfilInfo </div>
+        <div  id="text2"  class="prenom"> {this.info} </div>
         
       );
     }
   }
-  export default ProfilInfo; // obligé
+  export default ProfilInfo; // obligés
