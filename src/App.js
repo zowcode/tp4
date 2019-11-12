@@ -16,7 +16,7 @@ class App extends React.Component{
 
     this.state = {
       value: 0,
-     
+
       profils : [
        {
          prenom: "Bob",
@@ -95,7 +95,7 @@ class App extends React.Component{
          <div class="colonne2 offset-3 col-lg-6 col-md-3 col-sm-4 col-6">
            <text class="row offset-1"> {this.state.profils[this.state.value].publi} </text>
             <div class="row offset-1">
-              <SuperButton info = {this.state.value}></SuperButton>
+              <SuperButton id = {this.state.value}></SuperButton>
             </div>
           </div>
         </div>

@@ -59,6 +59,13 @@ text{
   font-style: oblique;
   margin-top: 1rem;
 }
+#nbSuper{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  margin-top: 32px;
+  margin-left: 10px;
+
+}
 
 #text{
   font-family: 'Courier New', Courier, monospace;
